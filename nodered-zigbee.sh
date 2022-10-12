@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# run script : bash <(curl -sL https://raw.githubusercontent.com/jackrobotics/pi/main/nodered-zigbee.sh)
+
 echo "=================================================="
 echo "= Software By Sonthaya Boonchan ( JackRoboticS ) ="
 echo "=================================================="
