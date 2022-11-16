@@ -42,7 +42,7 @@ sudo chown -R ${USER}: /opt/zigbee2mqtt
 echo "=================================================="
 echo "= Git Clone  Zigbee2MQTT                         ="
 echo "=================================================="
-git clone --depth 1 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
+git clone -b 1.23.0 --depth 1 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
 
 # Install dependencies (as user "pi")
 cd /opt/zigbee2mqtt
